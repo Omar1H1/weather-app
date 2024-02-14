@@ -1,5 +1,5 @@
 function fetchWeather() {
-    const apiKey = '1637ab67d7f7a6a4bc5cdaddf0863cfb';
+    const apiKey = '';
     const city = 'poitiers';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=fr&appid=${apiKey}&units=metric`;
   
